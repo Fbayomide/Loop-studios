@@ -1,0 +1,40 @@
+/* MENU CONTENTS STYLING */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+button{
+    background-color: transparent;
+    border: 0px;
+}
+.menu-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.menu-links a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
